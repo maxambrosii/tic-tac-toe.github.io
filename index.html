@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Крестики-нолики на javascript</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="table">
+      <div class="cell" id="0" onclick="move(0, 'player')"></div>
+      <div class="cell" id="1" onclick="move(1, 'player')"></div>
+      <div class="cell" id="2" onclick="move(2, 'player')"></div>
+      <div class="cell" id="3" onclick="move(3, 'player')"></div>
+      <div class="cell" id="4" onclick="move(4, 'player')"></div>
+      <div class="cell" id="5" onclick="move(5, 'player')"></div>
+      <div class="cell" id="6" onclick="move(6, 'player')"></div>
+      <div class="cell" id="7" onclick="move(7, 'player')"></div>
+      <div class="cell" id="8" onclick="move(8, 'player')"></div>
+    </div>
+  </div>
+  <br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br>
+
+  <button onclick="location.reload();" style="margin-left: 46%;">Начать сначала</button>
+  <div class="drop-shadow round rotated"> 
+
+    <p id="vPlayer">
+      Количество ваших побед: 0
+    </p>
+     <p id="vComp">
+      Количество побед компьютера: 0
+    </p>
+    <p id="vNO">
+      Количество ничьих: 0
+    </p>
+    
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
